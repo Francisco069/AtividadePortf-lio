@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.logo img {
+    width: 40px;
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.foto-perfil img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.descricao {
+    margin-left: 30px;
+}
+
+.descricao h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.descricao span {
+    font-weight: bold;
+}
+
+.descricao p {
+    font-size: 24px;
+    color: #666;
+}
+
+.sobre-mim {
+    text-align: center;
+    margin: 40px;
+}
+
+.sobre-mim h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.sobre-mim p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #666;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social-icons img {
+    width: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+

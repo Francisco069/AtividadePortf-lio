@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+.logo img {
+    width: 40px;
+}
+
+.contact-container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.email-section, .social-media-section, .github-section {
+    margin: 20px 0;
+}
+
+.email-section p, .github-section p {
+    font-size: 1.2em;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.social-links a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #e0e0e0;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-icons a img {
+    width: 40px;
+    height: 40px;
+}
